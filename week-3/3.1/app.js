@@ -10,4 +10,4 @@ app.post("/health-checkup", (req, res) => {
     res.send("you have " + kidneyLength + " kindeys")
 });
 
-app.listen(5000)
+app.listen(5000);
