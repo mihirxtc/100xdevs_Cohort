@@ -1,0 +1,26 @@
+input {
+    width: 250px;
+    padding: 6px;
+    font-size: 16px;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid rgba(30, 143, 255, 0.822);
+}
+
+button {
+    width: 125px;
+    padding: 4px;
+    font-size: 12px;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    background: transparent;
+}
+
+button:focus {
+    outline: none;
+    border: 1px solid orange;
+}
