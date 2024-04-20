@@ -10,6 +10,7 @@ function App() {
 }
 
 function MainApp() {
+
   const networkNotificationCount = useRecoilValue(networkAtom)
   const jobsAtomCount = useRecoilValue(jobsAtom)
   const notificationsAtomCount = useRecoilValue(notificationsAtom)
